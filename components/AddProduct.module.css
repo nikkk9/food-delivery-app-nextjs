@@ -1,0 +1,48 @@
+.addProduct {
+  height: calc(100vh - 4rem);
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+  background-color: lightgray;
+}
+.container {
+  padding: 3rem;
+  background-color: white;
+  height: 90%;
+}
+.container h1 {
+  text-align: center;
+  color: black;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+}
+.item label {
+  color: gray;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+.priceContainer input {
+  margin-right: 1rem;
+}
+
+.item input {
+  margin-top: 2rem;
+  padding: 0.8rem 1rem;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+  font-size: 1rem;
+  background-color: #fff;
+  color: black;
+}
+.item button {
+  margin-top: 3rem;
+  padding: 0.8rem 1rem;
+  cursor: pointer;
+  background-color: teal;
+  border: none;
+  font-size: 1.1rem;
+  letter-spacing: 0.1rem;
+}

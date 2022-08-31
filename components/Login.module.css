@@ -1,0 +1,41 @@
+.login {
+  height: calc(100vh - 4rem);
+  display: flex;
+  justify-content: center;
+  padding-top: 7rem;
+  background-color: lightgray;
+}
+.container {
+  padding: 5rem;
+  background-color: rgb(238, 255, 255);
+  height: 80%;
+}
+.container h1 {
+  text-align: center;
+  color: black;
+}
+.inpContainer {
+  display: flex;
+  flex-direction: column;
+}
+.inpContainer input {
+  margin-top: 2rem;
+  padding: 0.8rem 1rem;
+  outline: none;
+  border: none;
+  background-color: lightgray;
+  color: black;
+}
+
+.inpContainer button {
+  margin-top: 2rem;
+  padding: 0.8rem 1rem;
+  cursor: pointer;
+  background-color: teal;
+  border: none;
+}
+.error {
+  color: crimson;
+  margin-top: 1rem;
+  text-align: center;
+}

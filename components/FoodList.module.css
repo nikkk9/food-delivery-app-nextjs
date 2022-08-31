@@ -1,0 +1,23 @@
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 25rem;
+  margin: 2rem 1rem;
+  padding: 1rem;
+  border: 2px solid teal;
+  border-radius: 0.2rem;
+  transition: 0.5s ease;
+}
+.details:hover {
+  transform: scale(1.05);
+}
+.details h2 {
+  margin-top: 1rem;
+  color: teal;
+}
+.details p {
+  color: black;
+}
