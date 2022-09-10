@@ -23,7 +23,7 @@ const AddProduct = () => {
 
     try {
       const uploadRes = await axios.post(
-        "https://api.cloudinary.com/v1_1/iamunknown/upload",
+        "https://api.cloudinary.com/v1_1/YOUR_CLOUD_NAME/upload",
         data
       );
       //   console.log(uploadRes);
